@@ -4,7 +4,7 @@ import java.util.Scanner;
  * 主にプレイヤーが行う操作を書いている
  */
 public class Player {
-    public String[] Oselect(String[] stage){
+    public String[] Oselect(String[] stage){//○のプレイヤーの操作
        System.out.println("○を置く場所を選択してください");
        Scanner scanner = new Scanner(System.in);
        Stage st = new Stage();
@@ -17,7 +17,7 @@ public class Player {
        }return stage;
     }
 
-    public String[] Xselect(String[] stage){
+    public String[] Xselect(String[] stage){//×のプレイヤーの操作
         System.out.println("○を置く場所を選択してください");
         Scanner scanner = new Scanner(System.in);
         Stage st = new Stage();

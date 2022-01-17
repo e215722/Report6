@@ -3,7 +3,7 @@ import java.util.Objects;
 import java.util.Random;
 
 /**ステージクラス
- * 
+ * ステージの作成、勝敗の判定、ゲームの実行を行うメソッド書かれている
  */
 public class Stage {
     static String[] stage = new String[9];  
