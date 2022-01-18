@@ -36,7 +36,7 @@ public class Stage {
         }
     }
     public boolean Check(String stage[]){//勝負が決まったかを確認して終わりならtrueを返す
-        if(Objects.equals(stage[0],"")&&Objects.equals(stage[1],"○")&&Objects.equals(stage[2],"○")||
+        if(Objects.equals(stage[0],"○")&&Objects.equals(stage[1],"○")&&Objects.equals(stage[2],"○")||
         Objects.equals(stage[3],"○")&&Objects.equals(stage[4],"○")&&Objects.equals(stage[5],"○")||
         Objects.equals(stage[6],"○")&&Objects.equals(stage[7],"○")&&Objects.equals(stage[8],"○")||
         Objects.equals(stage[0],"○")&&Objects.equals(stage[3],"○")&&Objects.equals(stage[6],"○")||

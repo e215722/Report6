@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args){
         
         Stage sta = new Stage();
+        sta.Number();
         String stage[] = sta.setStage();
         String Player1 = sta.getOrder();
         stage = sta.gameMaster(stage, Player1);
